@@ -17,10 +17,7 @@
 
 
 A new Luci theme for LEDE/OpenWRT  
-Edge is a clean HTML5 theme for LuCI. It is based on luci-theme-argon Template  
-
-## Notice
-Cant't adapt to luci 18.06.  
+Edge is a clean HTML5 theme for LuCI. It is based on luci-theme-argon Template   
 
 ## Thanks to 
 luci-theme-argon: https://github.com/jerrykuku/luci-theme-argon
