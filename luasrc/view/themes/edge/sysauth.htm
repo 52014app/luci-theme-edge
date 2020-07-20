@@ -2143,19 +2143,19 @@
 			<div class="cbi-value">
 				<label class="cbi-value-title"><%:Username%></label>
 				<div class="cbi-value-field">
-					<input class="cbi-input-user" type="text" name="luci_username" value="<%=duser%>" />
+					<input class="cbi-input-user" type="text" name="luci_username" placeholder="User name" value="<%=duser%>" />
 				</div>
 			</div>
 			<div class="cbi-value cbi-value-last">
 				<label class="cbi-value-title"><%:Password%></label>
 				<div class="cbi-value-field">
-					<input class="cbi-input-password" type="password" name="luci_password" />
+					<input class="cbi-input-password" type="password" placeholder="Password" name="luci_password" />
 				</div>
 			</div>
 		</fieldset></fieldset>
 	</div>
 
-	<div>
+	<div class="cbi-page-actions">
 		<input type="submit" value="<%:Login%>" class="cbi-button cbi-button-apply" />
 		<input type="reset" value="<%:Reset%>" class="cbi-button cbi-button-reset" />
 	</div>
@@ -2194,4 +2194,3 @@ if https_port and fs.access(https_key) then
 <% end %>
 
 <%+footer%>
-
