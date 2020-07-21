@@ -1173,7 +1173,7 @@ div > .table > .tr:nth-of-type(2n):hover {
 }
 table > tbody > tr:nth-of-type(3n),
 div > .table > .tr:nth-of-type(3n) {
-  background-color: rgba(223, 56, 18, 0.05);
+  background-color: rgba(223, 56, 18, 0.04);
 }
 table > tbody > tr:nth-of-type(3n):hover,
 div > .table > .tr:nth-of-type(3n):hover {
@@ -2081,7 +2081,7 @@ textarea {
   font-size: small;
   line-height: 1.25;
   width: 100%;
-  min-height: 15rem;
+  min-height: 25rem;
   padding: 1rem;
   resize: none;
   color: #eee;
@@ -3570,6 +3570,7 @@ input[type=button],input[type=submit],input[type=reset]{
   .btn,button,
   .cbi-button,input[type=button],input[type=submit],input[type=reset] {
     padding: 0.6rem 1.6rem;
+	width: auto !important;
   }
 i.waves-input-wrapper{
 	padding: 0 !important;
@@ -3605,6 +3606,7 @@ h2,.cbi-map-descr{
 }
 .node-status-overview table tr td:first-child{
 	padding-left:3rem !important;
+	vertical-align: middle !important;
 }
 ul.errors li{
 margin-bottom: 1rem;	
