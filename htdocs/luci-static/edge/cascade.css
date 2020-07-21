@@ -1811,14 +1811,18 @@ ul.tabs,.tabmenu .tabs,#tabmenu .tabs,ul.cbi-tabmenu{
   width: auto;
 }
 /* progressbar */
-.cbi-progressbar {
+.cbi-progressbar,#memtotal>div,#membuff>div,#conns>div {
   position: relative;
-  min-width: 170px;
+  width: 100% !important;
   height: 20px;
   margin: 6px 0;
-  border: thin solid #999;
+  border:none !important;
   border-radius: 0.2rem;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+#memtotal>div small,#membuff>div small,#conns>div small{
+	line-height:20px !important;
 }
 @keyframes progress-bar-stripes {
   from {
@@ -1829,14 +1833,21 @@ ul.tabs,.tabmenu .tabs,#tabmenu .tabs,ul.cbi-tabmenu{
   }
 }
 
-.cbi-progressbar > div {
+.cbi-progressbar > div,#memtotal>div>div,#membuff>div>div,#conns>div>div {
   width: 0;
-  height: 100%;
+  height: 100% !important;
   transition: width 0.25s ease-in;
-  background-color: #5A8DEE;
+  background-color: #5A8DEE !important;
   background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
 	background-size: auto auto;
 	animation: progress-bar-stripes 1s linear infinite;
+}
+
+#membuff>div>div{
+	background-color: #FDAC41 !important;
+}
+#conns>div>div{
+	background-color: #23bd70 !important;
 }
 .cbi-progressbar::after {
   font-family: monospace;
