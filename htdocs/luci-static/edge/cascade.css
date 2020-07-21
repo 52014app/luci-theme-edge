@@ -3583,7 +3583,7 @@ h2,.cbi-map-descr{
 	padding-left:2rem;
 }
 .cbi-map >.cbi-section .cbi-section-table,.cbi-map >.cbi-section .cbi-tabmenu,.cbi-map >.cbi-section .table{
-	margin-left: -1.95rem;
+	margin-left: -1.95rem !important;
 	width:105.5% !important;
 }
 
