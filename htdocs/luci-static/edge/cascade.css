@@ -1136,7 +1136,6 @@ tr > th,
 .cbi-section-table-row {
   margin-bottom: 1rem;
   text-align: center !important;
-  background: #f4f4f4;
 }
 .cbi-section-table-row:last-child {
   margin-bottom: 0;
@@ -1502,7 +1501,7 @@ ul.tabs,.tabmenu .tabs,#tabmenu .tabs,ul.cbi-tabmenu{
 .cbi-value {
   display: inline-block;
   width: 100%;
-  padding: 0.35rem 2rem 0.2rem;
+  padding: 0.35rem 2rem 0.35rem;
   line-height: 2.4rem;
 }
 .cbi-value-field >*{
@@ -1568,17 +1567,7 @@ ul.tabs,.tabmenu .tabs,#tabmenu .tabs,ul.cbi-tabmenu{
   white-space: normal;
   word-wrap: break-word;
 }
-.cbi-rowstyle-1 {
-  background-color: #f9f9f9;
-}
-.cbi-rowstyle-2 {
- 
-}
-.cbi-rowstyle-2 .cbi-button-up,
-.cbi-rowstyle-2 .cbi-button-down,
-body:not(.Interfaces) .cbi-rowstyle-2:first-child {
-  background-color: #fff !important;
-}
+
 .cbi-section-table .cbi-section-table-titles .cbi-section-table-cell {
   width: auto !important;
 }
