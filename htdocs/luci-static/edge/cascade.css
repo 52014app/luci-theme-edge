@@ -3636,3 +3636,6 @@ padding:0 2rem;
 .cbi-dropdown.waves-effect{
 	display: inline-flex;
 }
+cbi-button.cbi-button-neutral{
+	padding: 0.1rem 0.4rem;
+}
