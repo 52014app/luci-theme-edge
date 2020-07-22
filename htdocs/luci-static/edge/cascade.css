@@ -1154,32 +1154,33 @@ tr > th,
 .cbi-section-table-row .td {
   text-align: center !important;
 }
-table > tbody > tr,
-div > .table > .tr { 
-  background-color: #e5effd;
+div > table > tbody > tr,
+div > .table > .tr {
+	 background-color: #fff;
   transition: background-color .25s
   
 }
-table > tbody > tr:hover,
+div > table > tbody > tr:hover,
 div > .table > .tr:hover {
-  background-color: #d9e9ff;
-}
-table > tbody > tr:nth-of-type(2n),
-div > .table > .tr:nth-of-type(2n) {
- background-color: #fff;
-}
-table > tbody > tr:nth-of-type(2n):hover,
-div > .table > .tr:nth-of-type(2n):hover {
  
 }
-table > tbody > tr:nth-of-type(3n),
-div > .table > .tr:nth-of-type(3n) {
+div > table > tbody > tr:nth-of-type(4n+2),
+div > .table > .tr:nth-of-type(4n+2) {
+background-color: #e5effd;
+}
+div > table > tbody > tr:nth-of-type(4n+2):hover,
+div > .table > .tr:nth-of-type(4n+2):hover {
+  background-color: #d9e9ff;
+}
+div > table > tbody > tr:nth-of-type(4n),
+div > .table > .tr:nth-of-type(4n) {
   background-color: rgba(223, 56, 18, 0.04);
 }
-table > tbody > tr:nth-of-type(3n):hover,
-div > .table > .tr:nth-of-type(3n):hover {
+div > table > tbody > tr:nth-of-type(4n):hover,
+div > .table > .tr:nth-of-type(4n):hover {
   background-color: rgba(223, 56, 18, 0.09);
 }
+
 /* fix multiple table */
 table table,
 .table .table,
