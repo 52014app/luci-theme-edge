@@ -456,7 +456,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
     background: #5A8DEE;
 }
 select+.focus-input::before {
-	top: 2.35rem;
+	top: 2.12rem;
 }
 .node-main-login .focus-input::before {
 	top: 2.73rem;
@@ -1509,7 +1509,7 @@ ul.tabs,.tabmenu .tabs,#tabmenu .tabs,ul.cbi-tabmenu{
 .cbi-value {
   display: inline-block;
   width: 100%;
-  padding: 0.35rem 2rem 0.35rem;
+  padding: 0.5rem 2rem;
   line-height: 2.4rem;
 }
 .cbi-value-field >*{
