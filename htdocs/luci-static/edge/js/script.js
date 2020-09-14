@@ -344,14 +344,6 @@
      audiostatus = 'off';
      /*Set the status back to off*/
    });
-     setTimeout(function(){
-   if (!$('#player')[0].paused) {
-         $('.speaker').addClass('speakerplay');
-         getaudio.load();
-         getaudio.play();
-         audiostatus = 'on';
-       }
-}, 300); 
 	setTimeout(function(){
 var config = {
     // How long Waves effect duration 
