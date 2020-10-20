@@ -153,7 +153,7 @@
 				else
 					local title = pcdata(striptags(translate(nnode.title)))
                                         local en_title = pcdata(striptags(nnode.title))
-					write('<li  class="slide"><a  class="logout" data-title="%s" href="%s">%s</a></li>' %{
+					write('<li  class="slide"><a  class="menu exit" data-title="%s" href="%s">%s</a></li>' %{
 						en_title,
 						nodeurl(category, r, nnode.query),
 						title
