@@ -1324,7 +1324,6 @@ tr > th,
 
 table > tbody > tr,
 div > .table > .tr,.cbi-map >.cbi-section .cbi-value {
-	background-color: #fff;
 	transition: background-color .25s
 }
 
