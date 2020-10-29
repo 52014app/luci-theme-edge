@@ -902,7 +902,7 @@ header .fill .status * {
 .main .main-left .nav>li>a {
 	display: block;
 	font-size: 0.9rem !important;
-	margin: 0.4rem 0 !important;
+	margin: 0.4rem 0.5rem !important;
 	padding: 0.5rem 0 0.5rem 2.5rem !important;
 	transition: box-shadow .25s, -webkit-box-shadow .25s;
 	border-radius: 2px;
