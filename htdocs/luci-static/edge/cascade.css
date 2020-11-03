@@ -4128,7 +4128,7 @@ div[id^="cbi-unblockmusic"] .cbi-button {
 }
 
 .cbi-section-table .tr>.td:last-child,#packages .tr>.td:last-child{
-	padding-left:2.5rem;
+	padding-right:3%;
 }
 
 .chromeframe {
