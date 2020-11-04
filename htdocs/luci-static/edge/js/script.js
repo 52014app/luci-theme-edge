@@ -379,4 +379,7 @@ $("select,input").filter(function () {
 });
 	}, 0);
 	$(".cbi-value").has("textarea").css("background","none");
+	setTimeout(function(){
+		 document.getElementById('cbid.adblock.global.adb_sources').click();
+	}, 1000);
 })(jQuery);
