@@ -1164,6 +1164,10 @@ h5 {
 	text-decoration: underline;
 }
 
+fieldset.cbi-section{
+border:none;	
+}
+
 .cbi-section > legend {
 	display: none !important;
 }
