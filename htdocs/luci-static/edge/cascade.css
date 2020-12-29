@@ -1459,7 +1459,7 @@ button:hover,
 	font-weight: normal;
 	color: #fff;
 	border: none;
-	background-color: #00CFDD !important;
+	background-color: #23bd70 !important;
 }
 /* green */
 .cbi-button-success,
@@ -3614,7 +3614,7 @@ display:none !important;
 }
 
 .cbi-button.reconnect {
-	background-color: #00CFDD !important;
+	background-color: #23bd70 !important;
 }
 
 .cpu .cbi-progressbar > div {
@@ -4106,7 +4106,6 @@ div[id^="cbi-unblockmusic"] .cbi-button {
 table.interfaces .th{
 	padding:1.1em 0.5rem !important;
 }
-.cbi-value>.cbi-value-field>div:first-child{
-	 display: inline-flex !important;
-    cursor: pointer;
+.cbi-value>.cbi-value-field>div:first-child+br{
+display:none;
 }
